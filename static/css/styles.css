@@ -1,0 +1,295 @@
+/* #E4F9F5 #30E3CA #11999E #40514E */
+/* #79B4B7 #F7F6F2 #E7E9DE */
+/*
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sacramento', cursive;
+*/
+
+/*******************ABSOLUTE POSITIONING**********************/
+
+body {
+    color: #40514E;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+.top-container {
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 150px;
+}
+
+.middle-container {
+    background-color: #;
+    padding-bottom: 30px;
+}
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 25px;
+
+}
+
+h1 {
+    width: 40%;
+    margin: 0 auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 562.5%;
+    color: #66BFBF;
+
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.1rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+p {
+
+}
+
+a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+.un {
+    text-decoration: underline;
+}
+
+
+.top-cloud {
+    position: absolute;
+    right: 700px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 600px;
+    top: 250px;
+}
+
+.profile {
+    width: 50%;
+    margin: 80px auto 50px auto;
+    line-height: 2;
+}
+
+.contact-me {
+    width: 50%;
+    margin: 10px auto 10px auto;
+    line-height: 2;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 50px auto 50px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skills {
+    padding-top: 20px;
+}
+
+.programmer-image {
+    width: 25%;
+}
+
+.comp-image {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.chilli-image {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.dotted {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #EAF6F6;
+    border-width: 5px;
+    height: 0px;
+    width: 50%;
+}
+
+.trade {
+    margin-bottom: 0px;
+    padding-top: 10px;
+    color: #EAF6F6;
+    font-size: 0.75rem;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+/**************************ANTI FLOAT*************************/
+/*
+.anti-float-l {
+    clear: left;
+}
+
+.anti-float-r {
+    clear: right;
+}
+*/
+
+/*******************ABSOLUTE POSITIONING**********************/
+/*
+.top-container {
+    background-color: #E4F9F5;
+    width: 140px;
+    height: 140px;
+    border: solid 10px;
+    padding: 20px;
+    position: absolute;
+    left: 0px;
+}
+
+.middle-container {
+    background-color: red;
+    width: 160px;
+    height: 160px;
+    border: solid 20px;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+
+
+
+}
+.bottom-container {
+    background-color: blue;
+    width: 180px;
+    height: 180px;
+    border: solid 10px;
+    position: absolute;
+    left: 400px;
+    top: 400px;
+
+
+}
+
+body {
+    margin: 0px;
+}
+
+.un {
+    text-decoration: underline;
+}
+*/
+/*******************RELATIVE POSITIONING**********************/
+/*
+.top-container {
+    background-color: #E4F9F5;
+    width: 140px;
+    height: 140px;
+    border: solid 10px;
+    padding: 20px;
+    display: inline-block;
+    position: relative;
+    left: 390px;
+}
+
+.middle-container {
+    background-color: red;
+    width: 160px;
+    height: 160px;
+    border: solid 20px;
+    display: inline-block;
+    position: relative;
+    right: 10px;
+
+
+}
+.bottom-container {
+    background-color: blue;
+    width: 180px;
+    height: 180px;
+    border: solid 10px;
+    display: inline-block;
+    position: relative;
+    right: 410px;
+
+}
+
+body {
+    margin: 0px;
+}
+
+.un {
+    text-decoration: underline;
+}
+
+*/
+/*******************CLASS SELECTOR**********************/
+/*
+.dotted {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #F76B8A;
+    border-width: 5px;
+    height: 0px;
+
+}
+.small {
+    width: 20%;
+}
+*/
+/***********************ID SELECTOR**********************/
+/*
+#email {
+    color: red;
+}
+*/
+/****************STATE DEPENDENT SELECTORS***************/
+/*
+a:hover {
+  color: orange;
+}
+*/
